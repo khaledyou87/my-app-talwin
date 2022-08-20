@@ -11,6 +11,8 @@ import { useFonts, Inter_900Black } from '@expo-google-fonts/inter';
 import AuthNavigation from './components/navigation/AuthNavigation';
 import NavigationTheme from './components/navigation/NavigationTheme';
 import AppNaviation from './components/navigation/AppNaviation';
+import AlfahrasAr from './components/arabVew/AlfahrasAr';
+import SuraListAr from './components/arabVew/SuraListAr';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -31,6 +33,8 @@ export default function App() {
 <AuthNavigation/>
 
       </NavigationContainer>
+      {/* <AlfahrasAr/>
+      <SuraListAr/> */}
    
     </TailwindProvider>
   );
