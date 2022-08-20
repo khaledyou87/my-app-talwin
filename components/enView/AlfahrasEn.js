@@ -4,8 +4,8 @@ import React from 'react'
 const AlfahrasEn = ({alfahrasEn}) => {
   return (
     <View className=" items-center  p-7">
-    <View className="bg-orange px-12   rounded-2xl ">
-    <Text style={{fontFamily:'NotoNaskhArabicBold'}}  className="p-3 text-white text-lg ">{alfahrasEn}</Text>
+    <View className="bg-orange px-10   rounded-2xl ">
+    <Text style={{fontFamily:'NotoNaskhArabicBold'}}  className="p-3 top-1 text-white text-lg ">{alfahrasEn}</Text>
     </View>
   </View>
   )
