@@ -14,6 +14,9 @@ const AuthNavigation = () => {
         <Stack.Screen name="QuranArScreen"
         component={AppNaviation}
         options={{ headerShown: false }}/>
+        <Stack.Screen name="QuranEnScreen"
+        component={AppNaviation}
+        options={{ headerShown: false }}/>
   </Stack.Navigator>
   )
 }

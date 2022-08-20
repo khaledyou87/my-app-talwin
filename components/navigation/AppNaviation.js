@@ -2,8 +2,10 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../../screens/HomeScreen';
-import { Entypo} from '@expo/vector-icons';
+import { Entypo,MaterialCommunityIcons,MaterialIcons } from '@expo/vector-icons'; 
+
 import QuranArScreen from '../../screens/QuranArScreen';
+import QuranEnScreen from '../../screens/QuranEnScreen';
 
 export default function AppNaviation() {
     const Tab = createBottomTabNavigator();
@@ -41,7 +43,17 @@ export default function AppNaviation() {
         component={QuranArScreen}
         options={{
           tabBarIcon: ({ focused, color }) => (
-            <Entypo name="home" size={focused ? 30 : 25} color={color} />
+            <MaterialCommunityIcons name="book-open-variant" size={focused ? 30 : 25} color={color} />
+          ),
+        }}
+      />
+
+        <Tab.Screen
+        name="QuranEn"
+        component={QuranEnScreen}
+        options={{
+          tabBarIcon: ({ focused, color }) => (
+            <MaterialIcons name="translate"  size={focused ? 30 : 25} color={color} />
           ),
         }}
       />

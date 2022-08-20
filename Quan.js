@@ -4,7 +4,7 @@ import React from 'react'
 export default function Quan() {
   return (
 
-    
+
     <View className="flex-2 flex-row m-10  space-x-11  " >
 
 
@@ -32,7 +32,8 @@ onPress={()=>navigation.navigate("Quran")}
 
       </View>
       <Text className=" text-xs top-16 mr-4 text-purple " > القران الكريم باللغة العربية</Text>
-
+<MaterialCommunityIcons name="book-open-variant" size={24} color="black" />
+<MaterialIcons name="translate" size={24} color="black" />
       </View>
 
       </View>

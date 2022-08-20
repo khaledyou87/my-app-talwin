@@ -17,18 +17,10 @@ const QuranArScreen = () => {
       />
 
 
-      <AlfahrasEn
-      alfahrasEn="Alfahras"
-      />
+      
 
 
-      <SuraListEn
-      suraAr="الفاتحة "
-      suraEn="Alfatiha"
-      city="Madnia"
-      
-      
-      />
+     
 
 
 

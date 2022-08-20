@@ -32,6 +32,7 @@ const HomeScreen = ({navigation}) => {
       <HomeVewEn
       title="Quran Karim"
       subTitle="Quran Karim English"
+      onPress={()=>navigation.navigate("QuranEn")}
       />
 
 
