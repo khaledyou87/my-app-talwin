@@ -10,11 +10,11 @@ const HomeVewEn = ({title,subTitle,onPress}) => {
         
         <Ionicons className=" top-5"  name="ios-log-in-outline" size={30} color="#FF903F" />
         </View >
-        <View className=" ml-5  top-14 ">
+        <View className=" ml-5  top-16 pb-1">
 
 
 
-<Text style={{fontFamily:'NotoNaskhArabicBold'}} className=" text-base  " >{title}</Text>
+<Text style={{fontFamily:'NotoNaskhArabicBold'}} className=" text-base text-black  " >{title}</Text>
 
 
 </View>
