@@ -6,6 +6,7 @@ import { Entypo,MaterialCommunityIcons,MaterialIcons } from '@expo/vector-icons'
 
 import QuranArScreen from '../../screens/QuranArScreen';
 import QuranEnScreen from '../../screens/QuranEnScreen';
+import SuraTextAr from '../arabVew/SuraTextAr';
 
 export default function AppNaviation() {
     const Tab = createBottomTabNavigator();
@@ -41,6 +42,15 @@ export default function AppNaviation() {
         <Tab.Screen
         name="Quran"
         component={QuranArScreen}
+        options={{
+          tabBarIcon: ({ focused, color }) => (
+            <MaterialCommunityIcons name="book-open-variant" size={focused ? 30 : 25} color={color} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Quranar"
+        component={SuraTextAr}
         options={{
           tabBarIcon: ({ focused, color }) => (
             <MaterialCommunityIcons name="book-open-variant" size={focused ? 30 : 25} color={color} />

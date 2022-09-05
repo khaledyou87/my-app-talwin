@@ -13,6 +13,7 @@ import NavigationTheme from './components/navigation/NavigationTheme';
 import AppNaviation from './components/navigation/AppNaviation';
 import AlfahrasAr from './components/arabVew/AlfahrasAr';
 import SuraListAr from './components/arabVew/SuraListAr';
+import SuraTextAr from './components/arabVew/SuraTextAr';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -30,11 +31,10 @@ export default function App() {
   return (
     <TailwindProvider>
       <NavigationContainer theme={NavigationTheme}>
-<AuthNavigation/>
+  <AuthNavigation/>
 
       </NavigationContainer>
-      {/* <AlfahrasAr/>
-      <SuraListAr/> */}
+      {/* <SuraTextAr/> */}
    
     </TailwindProvider>
   );
